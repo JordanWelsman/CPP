@@ -10,7 +10,7 @@ int main()
   cout << "\nEnter the first number:\n";
   cin >> first;
 
-  cout << "\nEnter the first number:\n";
+  cout << "\nEnter the second number:\n";
   cin >> second;
 
   answer = first + second;
