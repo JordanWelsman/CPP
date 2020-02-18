@@ -3,15 +3,19 @@ using namespace std;
 
 int main()
 {
-  int number = 21;
-  int enteredNumber;
+  int first;
+  int second;
+  int answer;
 
-  cout << "\nEnter a number to add to 21\n";
-  cin >> enteredNumber;
+  cout << "\nEnter the first number:\n";
+  cin >> first;
 
-  number = number + enteredNumber;
+  cout << "\nEnter the first number:\n";
+  cin >> second;
 
-  cout << number;
+  answer = first + second;
+
+  cout << "\n" << first << " + " << second << " = " << answer << "\n";
 
   return 0;
 }
