@@ -3,21 +3,23 @@
 #include <ctype.h>
 using namespace std;
 
+const int ARRAYSIZE = 100;
+
 int main()
 {
-  char str[] = "Test";
+  char str[ARRAYSIZE] = "Hello, this is a test message.";
   char c;
-  int i = 0;
 
-  cout << "Please write a lower-case sentence to capitalise:";
-  cin >> str[];
+  cout << "\nPlease write a lower-case sentence to capitalise:\n";
+  cin >> (char std[]);
 
-  while (str[i])
+  for (int i = 0; i < ARRAYSIZE; i++)
   {
     c = str[i];
     putchar (toupper(c));
-    i++;
   }
+
+  //cout << str[];
 
   return 0;
 }
